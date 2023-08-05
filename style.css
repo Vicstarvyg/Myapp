@@ -1,0 +1,250 @@
+h1, h2, h3, h4, p, {
+font-family: serifs;
+margin: unset;
+}
+
+
+body{
+margin: unset;
+background-color: #ececec;
+
+}
+
+header {
+    width: 100%;
+    overflow: hidden; margin: 0px;
+}
+
+
+nav {
+    width: 100%;
+    background-color: rgb(7, 2, 26); 
+    margin: none;
+    position: fixed;
+    border-bottom: 5px solid orange;
+}
+
+
+
+.top {
+    min-height: 20px;
+    background-color: black;
+}
+
+.logo {
+    width: 70px;
+    padding: 30;
+    float: left;
+    padding: 10px 0px 0px 50px;
+}
+
+
+header li {
+    display: inline;
+
+}
+
+header ul {
+    float: right;
+    margin-right: 20px;
+    line-height: 30px;
+}
+
+
+header ul a, .dropbtn{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding: 30px 15px;
+    font-weight: bold;
+}
+
+
+header a:hover, .dropbtn:hover {
+    background-color: orange;
+}
+
+
+header a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+
+
+.container img {
+    width: 40%;
+height: 100%;
+display: inline;
+float: left;
+Margin-right: 20px;
+border-right: 5px solid pink;
+padding: 0;
+}
+
+
+.showcase {
+    min-heigth: 10000px;
+    background-color: #03031c;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    text-align: center;
+    color: white;
+    padding: 100px 50px;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+.half-left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin: 0;
+    padding: 50;
+}
+
+.showcase h1 {
+    margin: 0;
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20;
+}
+
+.showcase h2 {
+    margin: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20;
+    color: orange;
+}
+
+.btn {
+padding: 10px;
+width: 150px;
+color: white;
+background-color: orange;
+border: 3px solid white;
+border-radius: 10px;
+}
+
+.btn:hover {
+background-color: #563104;
+border: 3px solid orange;
+}
+
+
+.subscribe {
+background-color: #532813;
+color: white;
+width: 100%
+padding: 50px;
+text-align: right;
+
+}
+
+.subscribe input{
+width; 100px;
+height: 30px;
+margin-left:50px;
+}
+
+.btn-1 {
+padding: 10px;
+width: 100px;
+margin: 20px;
+margin-left: 5px;
+margin-right: 100px;
+color: white;
+background-color: orange;
+border: none;
+}
+
+.btn-1:hover {
+background-color: navy;
+}
+
+
+p {
+font-size: 20px;
+text-align: justify;
+}
+
+.dropdown-content {
+display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.box-container {
+margin: auto;
+Width 80%;
+text-align: center
+}
+
+.thirds {
+width: 30%;
+padding: 5px;
+margin: 0px;
+display: block;
+overflow: auto;
+float: left;
+taxt-align: left;
+
+}
+
+.curl {
+background-color: #000000;
+color: white;
+border-radius: 30px 0;
+padding: 20px;
+}
